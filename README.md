@@ -76,8 +76,8 @@ cd backend
 npm install
 
 PORT=4000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+db=your_mongodb_connection_string
+jwt_secret=your_jwt_secret_key
 
 npm start
 
