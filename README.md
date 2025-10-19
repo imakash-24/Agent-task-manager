@@ -75,14 +75,14 @@ cd Agent-task-manager
 cd backend
 npm install
 
-Add .env file
+### 3. Add .env file
 PORT=4000
 db=your_mongodb_connection_string
 jwt_secret=your_jwt_secret_key
 
 npm start
 
-### 3. Setup the Frontend
+### 4. Setup the Frontend
 
 cd ../frontend
 npm install
